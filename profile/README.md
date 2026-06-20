@@ -13,6 +13,7 @@ Wiki: [projectmambo.org](https://projectmambo.org/)
 
 ## The Ecosystem
  - **[MamboDot](https://github.com/ProjectMambo/MamboDot)** - Our desktop configuration repository containing automated installation deployments for Hyprland, Waybar, Kitty, and much more.
+ - **[MamboFinance](https://github.com/ProjectMambo/MamboFinance)** - A lightweight, privacy-focused financial dashboard for effortless expense tracking and budgeting.
  - **[MamboFolio](https://github.com/ProjectMambo/MamboFolio)** - Portfolio of the author of **Project Mambo**.
  - **[MamboSite](https://github.com/ProjectMambo/MamboSite)** - Documentation regarding project details and usage for the ecosystem.
  - **[MamboColour](https://github.com/ProjectMambo/MamboColour)** - The core, centralized design colour palette for consistent styling across the ecosystem.
