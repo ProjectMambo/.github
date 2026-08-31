@@ -1,3 +1,4 @@
+
 # Project Mambo
 <p align="left">
   <img src="https://img.shields.io/badge/Arch_Linux-1793D1?style=flat-square&logo=arch-linux&logoColor=white" alt="Arch Linux" />
@@ -13,9 +14,10 @@ Wiki: [projectmambo.org](https://projectmambo.org/)
 
 ## The Ecosystem
  - **[MamboDot](https://github.com/ProjectMambo/MamboDot)** - Our desktop configuration repository containing automated installation deployments for Hyprland, Waybar, Kitty, and much more.
+ - **[MamboSite](https://github.com/ProjectMambo/MamboSite)** - Markdown-first static site compiler for Project Mambo websites.
  - **[MamboFinance](https://github.com/ProjectMambo/MamboFinance)** - A lightweight, privacy-focused financial dashboard for effortless expense tracking and budgeting.
  - **[MamboFolio](https://github.com/ProjectMambo/MamboFolio)** - Portfolio of the author of **Project Mambo**.
- - **[MamboSite](https://github.com/ProjectMambo/MamboSite)** - Documentation regarding project details and usage for the ecosystem.
+ - **[MamboWiki](https://github.com/ProjectMambo/MamboWiki)** - Documentation regarding project details and usage for the ecosystem.
  - **[MamboColour](https://github.com/ProjectMambo/MamboColour)** - The core, centralized design colour palette for consistent styling across the ecosystem.
  - **[MamboFont](https://github.com/ProjectMambo/MamboFont)** - The font design for consistent styling and spacing across the ecosystem.
 
