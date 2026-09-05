@@ -23,7 +23,7 @@ Project Mambo is a seven-project personal software and design ecosystem spanning
 
 ## Current status
 
-MamboFolio is live on the MamboSite runtime. MamboWiki's public domain is live, while its MamboSite-backed documentation build is being prepared for manual review before deployment. The remaining projects are maintained independently and document their own implementation and maturity in their repositories.
+MamboFolio is live on the MamboSite runtime. MamboWiki's public domain is live, while its MamboSite-backed documentation build has passed local validation and is awaiting manual review before deployment. The remaining projects are maintained independently and document their own implementation and maturity in their repositories.
 
 ## Projects
 
