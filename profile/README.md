@@ -1,10 +1,10 @@
-
 # Project Mambo
 <p align="left">
   <img src="https://img.shields.io/badge/Arch_Linux-1793D1?style=flat-square&logo=arch-linux&logoColor=white" alt="Arch Linux" />
   <img src="https://img.shields.io/badge/Hyprland-33CCFF?style=flat-square&logo=hyprland&logoColor=white" alt="Hyprland" />
   <img src="https://img.shields.io/badge/Wayland-005A9C?style=flat-square&logo=wayland&logoColor=white" alt="Wayland" />
   <img src="https://img.shields.io/badge/Zsh-F2591F?style=flat-square&logo=gnu-bash&logoColor=white" alt="Zsh" />
+  <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust" />
 </p>
 
 A design-driven ecosystem of optimized Unix configurations, unified palettes, and automated dotfile deployment architectures.
