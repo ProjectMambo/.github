@@ -2,7 +2,7 @@
 
 <p align="left">
   <a href="https://github.com/ProjectMambo"><img src="https://img.shields.io/badge/GitHub-ProjectMambo-181717?style=flat-square&logo=github" alt="Project Mambo on GitHub" /></a>
-  <img src="https://img.shields.io/badge/Projects-8-7a5fff?style=flat-square" alt="Eight Project Mambo projects" />
+  <img src="https://img.shields.io/badge/Projects-9-7a5fff?style=flat-square" alt="Nine Project Mambo projects" />
   <img src="https://img.shields.io/badge/Maintenance-Active-brightgreen?style=flat-square" alt="Maintenance status: active" />
 </p>
 <p align="left">
@@ -10,7 +10,7 @@
   <a href="https://kohkohnut.org/"><img src="https://img.shields.io/badge/Portfolio-Live-brightgreen?style=flat-square" alt="MamboFolio portfolio: live" /></a>
 </p>
 
-Project Mambo is an eight-project personal software and design ecosystem spanning Linux configuration, shared colour and font assets, finance tooling, repository standards, a Markdown-first static-site platform, a portfolio, and a documentation wiki.
+Project Mambo is a nine-project personal software and design ecosystem spanning Linux configuration, shared colour and font assets, finance tooling, machine-learning search, repository standards, a Markdown-first static-site platform, a portfolio, and a documentation wiki.
 
 ## Start here
 
@@ -33,6 +33,7 @@ MamboFolio and MamboWiki are live on the MamboSite runtime at their public domai
 - **[MamboFinance](https://github.com/ProjectMambo/MamboFinance)** — privacy-focused finance tracking software under active development. [Wiki documentation](https://projectmambo.org/mambofinance/).
 - **[MamboFolio](https://github.com/ProjectMambo/MamboFolio)** — Solomon's Markdown-first portfolio, live at [kohkohnut.org](https://kohkohnut.org/). [Wiki documentation](https://projectmambo.org/mambofolio/).
 - **[MamboFont](https://github.com/ProjectMambo/MamboFont)** — a custom monospace font project with icon glyphs. [Wiki documentation](https://projectmambo.org/mambofont/).
+- **[MamboMeme](https://github.com/ProjectMambo/MamboMeme)** — a planned Rust and Python application for processing, searching, previewing, and selecting meme images and quotes. [Wiki documentation](https://projectmambo.org/mambomeme/).
 - **[MamboSite](https://github.com/ProjectMambo/MamboSite)** — the Rust, TypeScript, React, and Next.js platform that compiles Project Mambo's Markdown websites. [Wiki documentation](https://projectmambo.org/mambosite/).
 - **[MamboWiki](https://github.com/ProjectMambo/MamboWiki)** — the MamboSite-powered documentation website for the projects' canonical docs at [projectmambo.org](https://projectmambo.org/). [Wiki documentation](https://projectmambo.org/mambowiki/).
 
@@ -70,6 +71,7 @@ Project Mambo is a personal organisation and is not currently requesting externa
 
 - Report palette or generated-format issues to MamboColour.
 - Report desktop configuration, command, or keybinding issues to MamboDot.
+- Report meme corpus, retrieval, or interface issues to MamboMeme.
 - Report website compiler or renderer issues to MamboSite.
 - Report portfolio or wiki content and deployment issues to the corresponding site repository.
 
