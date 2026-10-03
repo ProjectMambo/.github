@@ -2,7 +2,7 @@
 
 <p align="left">
   <a href="https://github.com/ProjectMambo"><img src="https://img.shields.io/badge/GitHub-ProjectMambo-181717?style=flat-square&logo=github" alt="Project Mambo on GitHub" /></a>
-  <img src="https://img.shields.io/badge/Projects-9-7a5fff?style=flat-square" alt="Nine Project Mambo projects" />
+  <img src="https://img.shields.io/badge/Projects-11-7a5fff?style=flat-square" alt="Eleven Project Mambo projects" />
   <img src="https://img.shields.io/badge/Maintenance-Active-brightgreen?style=flat-square" alt="Maintenance status: active" />
 </p>
 <p align="left">
@@ -10,7 +10,7 @@
   <a href="https://kohkohnut.org/"><img src="https://img.shields.io/badge/Portfolio-Live-brightgreen?style=flat-square" alt="MamboFolio portfolio: live" /></a>
 </p>
 
-Project Mambo is a nine-project personal software and design ecosystem spanning Linux configuration, shared colour and font assets, finance tooling, machine-learning search, repository standards, a Markdown-first static-site platform, a portfolio, and a documentation wiki.
+Project Mambo is an eleven-project personal software and design ecosystem. It combines shared standards and tooling, Linux and finance applications, a reusable design system, a Markdown-first site platform, a portfolio, and a documentation wiki.
 
 ## Start here
 
@@ -27,15 +27,36 @@ MamboFolio and MamboWiki are live on the MamboSite runtime at their public domai
 
 ## Projects
 
-- **[MamboColour](https://github.com/ProjectMambo/MamboColour)** — colour palette definitions and generators for supported application formats. [Wiki documentation](https://projectmambo.org/mambocolour/).
-- **[MamboDocs](https://github.com/ProjectMambo/MamboDocs)** — shared repository, interface, lifecycle, dependency, and delivery standards. [Wiki documentation](https://projectmambo.org/mambodocs/).
-- **[MamboDot](https://github.com/ProjectMambo/MamboDot)** — GNU Stow-managed Arch Linux and Hyprland desktop configuration. [Wiki documentation](https://projectmambo.org/mambodot/).
-- **[MamboFinance](https://github.com/ProjectMambo/MamboFinance)** — privacy-focused finance tracking software under active development. [Wiki documentation](https://projectmambo.org/mambofinance/).
-- **[MamboFolio](https://github.com/ProjectMambo/MamboFolio)** — Solomon's Markdown-first portfolio, live at [kohkohnut.org](https://kohkohnut.org/). [Wiki documentation](https://projectmambo.org/mambofolio/).
-- **[MamboFont](https://github.com/ProjectMambo/MamboFont)** — a custom monospace font project with icon glyphs. [Wiki documentation](https://projectmambo.org/mambofont/).
-- **[MamboMeme](https://github.com/ProjectMambo/MamboMeme)** — a planned Rust and Python application for processing, searching, previewing, and selecting meme images and quotes. [Wiki documentation](https://projectmambo.org/mambomeme/).
-- **[MamboSite](https://github.com/ProjectMambo/MamboSite)** — the Rust, TypeScript, React, and Next.js platform that compiles Project Mambo's Markdown websites. [Wiki documentation](https://projectmambo.org/mambosite/).
-- **[MamboWiki](https://github.com/ProjectMambo/MamboWiki)** — the MamboSite-powered documentation website for the projects' canonical docs at [projectmambo.org](https://projectmambo.org/). [Wiki documentation](https://projectmambo.org/mambowiki/).
+### Foundation and developer tooling
+
+| Project | Purpose | Documentation |
+|---|---|---|
+| **[MamboDocs](https://github.com/ProjectMambo/MamboDocs)** | Shared repository, documentation, interface, lifecycle, and delivery standards. | [Wiki](https://projectmambo.org/mambodocs/) |
+| **[MamboTools](https://github.com/ProjectMambo/MamboTools)** | Central terminal manager for installing, updating, and removing Mambo repositories. | [Wiki](https://projectmambo.org/mambotools/) |
+| **[MamboSite](https://github.com/ProjectMambo/MamboSite)** | Rust, TypeScript, React, and Next.js platform that compiles Markdown websites. | [Wiki](https://projectmambo.org/mambosite/) |
+
+### Applications and environments
+
+| Project | Purpose | Documentation |
+|---|---|---|
+| **[MamboDot](https://github.com/ProjectMambo/MamboDot)** | GNU Stow-managed Arch Linux and Hyprland desktop configuration. | [Wiki](https://projectmambo.org/mambodot/) |
+| **[MamboFinance](https://github.com/ProjectMambo/MamboFinance)** | Privacy-focused personal finance tracking software. | [Wiki](https://projectmambo.org/mambofinance/) |
+| **[MamboMeme](https://github.com/ProjectMambo/MamboMeme)** | Rust and Python tooling for processing, searching, previewing, and selecting memes. | [Wiki](https://projectmambo.org/mambomeme/) |
+
+### Design system and assets
+
+| Project | Purpose | Documentation |
+|---|---|---|
+| **[MamboColour](https://github.com/ProjectMambo/MamboColour)** | Colour palette definitions and generators for supported application formats. | [Wiki](https://projectmambo.org/mambocolour/) |
+| **[MamboFont](https://github.com/ProjectMambo/MamboFont)** | Custom monospace font family with icon glyphs. | [Wiki](https://projectmambo.org/mambofont/) |
+| **[MamboUI](https://github.com/ProjectMambo/MamboUI)** | Shared Ratatui components and visual conventions for Mambo terminal interfaces. | [Wiki](https://projectmambo.org/mamboui/) |
+
+### Published sites
+
+| Project | Purpose | Live site |
+|---|---|---|
+| **[MamboFolio](https://github.com/ProjectMambo/MamboFolio)** | Solomon's Markdown-first portfolio. | [kohkohnut.org](https://kohkohnut.org/) |
+| **[MamboWiki](https://github.com/ProjectMambo/MamboWiki)** | MamboSite-powered public documentation for the complete ecosystem. | [projectmambo.org](https://projectmambo.org/) |
 
 ## How the pieces fit
 
@@ -55,6 +76,14 @@ MamboColour + MamboFont
 
 MamboDocs
     -> shared repository and delivery standards
+    -> reusable Codex workflow and checks
+
+MamboUI
+    -> shared Ratatui components
+    -> MamboTools and future terminal applications
+
+MamboTools
+    -> install, update, and remove Project Mambo repositories
 ```
 
 Each repository remains independently versioned and owns its implementation, setup instructions, release status, and licence. MamboSite supplies the shared website compiler and runtime; it does not own the source code of the sites it builds.
@@ -72,6 +101,8 @@ Project Mambo is a personal organisation and is not currently requesting externa
 - Report palette or generated-format issues to MamboColour.
 - Report desktop configuration, command, or keybinding issues to MamboDot.
 - Report meme corpus, retrieval, or interface issues to MamboMeme.
+- Report repository management issues to MamboTools.
+- Report shared terminal component or theme issues to MamboUI.
 - Report website compiler or renderer issues to MamboSite.
 - Report portfolio or wiki content and deployment issues to the corresponding site repository.
 
